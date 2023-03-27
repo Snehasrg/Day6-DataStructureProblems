@@ -14,17 +14,17 @@
                     integerLinkList.AddLast(10);
                     integerLinkList.AddLast(20);
                     integerLinkList.Addfirst(30);
-                    integerLinkList.Addfirst(40);
+                
                    // integerLinkList.DisplayList();
 
                     GenericClassCustomLinkedlist<string> stringLinkList = new GenericClassCustomLinkedlist<string>();
-                    Console.WriteLine();
-                    stringLinkList.AddLast("mahesh");
-                    stringLinkList.Addfirst("Gangurde");
                     Console.WriteLine("Before Removing Elements");
+                    stringLinkList.AddLast("Ghongade");
+                    stringLinkList.Addfirst("Sneha");
                     stringLinkList.DisplayList();
-                    Console.WriteLine("After removing Elements");
-                    stringLinkList.Remove("Gangurde");
+                    Console.WriteLine();
+                    Console.WriteLine("After Removing Elements");
+                    stringLinkList.Remove("Sneha");
                     stringLinkList.DisplayList();
                     break;
                 default:
