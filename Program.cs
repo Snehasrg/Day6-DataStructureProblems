@@ -5,7 +5,7 @@
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Day6 Datastructure PracticeProblem");
-            Console.WriteLine("Select any one option for \n 1. Generic Custom Linklist");
+            Console.WriteLine("Select any one option from \n 1. Generic Custom Linkedlist");
             int operation = Convert.ToInt32(Console.ReadLine());
             switch (operation)
             {
@@ -14,17 +14,14 @@
                     integerLinkList.AddLast(10);
                     integerLinkList.AddLast(20);
                     integerLinkList.Addfirst(30);
-                
-                   // integerLinkList.DisplayList();
 
                     GenericClassCustomLinkedlist<string> stringLinkList = new GenericClassCustomLinkedlist<string>();
                     Console.WriteLine("Before Removing Elements");
-                    stringLinkList.AddLast("Ghongade");
-                    stringLinkList.Addfirst("Sneha");
-                    stringLinkList.DisplayList();
+                    stringLinkList.AddLast("Shruti");
+                    stringLinkList.Addfirst("Srushti");
                     Console.WriteLine();
                     Console.WriteLine("After Removing Elements");
-                    stringLinkList.Remove("Sneha");
+                    stringLinkList.Remove("Srushti");
                     stringLinkList.DisplayList();
                     break;
                 default:
