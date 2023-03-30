@@ -15,7 +15,7 @@ namespace DatastructureProblems
             linkListData.AddFirst(40);
             linkListData.AddFirst(50);
             linkListData.AddLast(60);
-            Console.WriteLine("Current items in list:");
+            Console.WriteLine("Current elements in Linkedlist are");
 
             // Read operation
             foreach (int data in linkListData)
@@ -29,7 +29,7 @@ namespace DatastructureProblems
             {
                 node.Value = 70;
             }
-            Console.WriteLine("After Update Element");
+            Console.WriteLine("After Update Elements are");
             foreach (int data in linkListData)
             {
                 Console.WriteLine(data);
@@ -37,7 +37,7 @@ namespace DatastructureProblems
 
             // Delete operation
             linkListData.RemoveFirst();
-            Console.WriteLine("After Removing Element");
+            Console.WriteLine("After Removing Elements");
             foreach (int data in linkListData)
             {
                 Console.WriteLine(data);
